@@ -1,4 +1,4 @@
-import com._7_annotations.Slow
+import com._6_annotations.Slow
 
 runner {
   exclude Slow

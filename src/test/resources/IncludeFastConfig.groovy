@@ -1,4 +1,4 @@
-import com._7_annotations.Fast
+import com._6_annotations.Fast
 
 runner {
   include Fast

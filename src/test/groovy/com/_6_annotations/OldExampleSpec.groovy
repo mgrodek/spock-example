@@ -1,4 +1,4 @@
-package com._7_annotations
+package com._6_annotations
 
 import spock.lang.Specification
 

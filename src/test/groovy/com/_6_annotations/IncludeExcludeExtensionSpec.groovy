@@ -1,4 +1,4 @@
-package com._7_annotations
+package com._6_annotations
 /*
  * Copyright 2010 the original author or authors.
  *
