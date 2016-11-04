@@ -11,7 +11,8 @@ class ProviderSampleSpec extends Specification {
         new User(name: name, gender: gender).female == Boolean.valueOf(expected)
 
         where:
-        [_, name, gender, expected] << new MultilineProvider(source: "1;mrhaki;M;false\n2;Britt;F;true")
+        [_, name, gender, expected] << new MultilineProvider(source: """1;mrhaki;M;false
+                                                                        2;Britt;F;true""")
 
         description = expected ? 'female' : 'not female'
     }
